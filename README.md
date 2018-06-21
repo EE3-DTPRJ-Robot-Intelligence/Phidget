@@ -26,7 +26,7 @@ Python script for polling mode pressure sensing with 4 half bridge loadcells
 
 3. Libraries are by deauflt installed in /usr/local/lib. If this is not the library path for your system, you can
 
-   Specify a different folder for installation:
+   specify a different folder for installation:
   ```bash
   ./configure --prefix=/usr && make && sudo make install
   ```
