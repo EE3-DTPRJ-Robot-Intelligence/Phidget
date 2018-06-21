@@ -63,9 +63,9 @@ For Python:
 [Phidget Python Module](https://www.phidgets.com/downloads/phidget22/libraries/any/Phidget22Python.zip)
 
    On terminal install the module:
-  ```bash
-  python setup.py install
-  ```
+   ```bash
+   python setup.py install
+   ```
 
 ## Event Driven Mode
 
