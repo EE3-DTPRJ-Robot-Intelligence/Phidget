@@ -59,14 +59,16 @@ Other languages are also supported:
 
 For Python:
 
-1. Download and unpack the 
+Download and unpack the 
 [Phidget Python Module](https://www.phidgets.com/downloads/phidget22/libraries/any/Phidget22Python.zip)
 
-   On terminal install the module:
-   ```bash
-   python setup.py install
-   ```
+On terminal install the module:
+```bash
+python setup.py install
+```
+
+Now you can connect your phidget and run the script.
 
 ## Event Driven Mode
-
+The original example code from Phidget website only is event driven. Only when there is a change in the input that meets 
 ## Polling Mode
