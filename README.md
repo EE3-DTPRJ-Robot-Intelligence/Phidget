@@ -1,5 +1,5 @@
 # Phidget
-Python script for pulling mode pressure sensing with 4 half bridge loadcells
+Python script for polling mode pressure sensing with 4 half bridge loadcells
 
 ## Prerequisites
 ### hardware:  
@@ -12,4 +12,12 @@ Python script for pulling mode pressure sensing with 4 half bridge loadcells
 * Python2.7,
 * Phidget Python Module
 
+## Wiring Guide
+
 ## Install phidget22 library
+
+## Install Phidge Python Package
+
+## Event Driven Mode
+
+## Polling Mode
