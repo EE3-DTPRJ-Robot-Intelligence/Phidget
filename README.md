@@ -4,7 +4,9 @@ Python script for pulling mode pressure sensing with 4 half bridge loadcells
 
 
 ## Prerequisites
-**hardware**:  PhidgetBridge 1046,
+**hardware**:  
+PhidgetBridge 1046,
+
 
 mini usb cable loadcells,
 
