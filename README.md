@@ -9,7 +9,7 @@ Python script for polling mode pressure sensing with 4 half bridge loadcells
 
 ### software:
 * Phidget22 library - "libphidget22",
-* Python2.7,
+* Python2.7 or 3.6,
 * Phidget Python Module
 
 ## Wiring Guide
@@ -19,9 +19,9 @@ Python script for polling mode pressure sensing with 4 half bridge loadcells
    ```bash
    apt-get install libusb-1.0-0-dev
    ```
-2. Next, download the libphidget22 package 
+2. Next, download the 
 [libphidget22](https://www.phidgets.com/downloads/phidget22/libraries/linux/libphidget22.tar.gz)
-
+package
 3. Extract the package, open the README file and follow the instrustions about how to install the files.
 
 3. Libraries are by deauflt installed in /usr/local/lib. If this is not the library path for your system, you can
@@ -36,7 +36,7 @@ Python script for polling mode pressure sensing with 4 half bridge loadcells
    ```bash
    echo /usr/local/lib >> /etc/ld.so.conf && sudo ldconfig
    ```
-4. TO verify that the libraries are properly installed, download the 
+4. To verify that the libraries are properly installed, download the 
 [HelloWorld C example](https://www.phidgets.com/downloads/phidget22/examples/c/Manager/Phidget22_HelloWorld_C_Ex.zip)
 
    Compile and run the example:
@@ -46,8 +46,26 @@ Python script for polling mode pressure sensing with 4 half bridge loadcells
    ```bash
    ./HelloWorld
    ```
-## Install Phidge Python Package
+   Your output should look like this:
+   ![alt-text](https://www.phidgets.com/docs/images/1/1a/Linux_helloworld.PNG)
+   
+   
+   for other more detailed information or other OS please go to [https://www.phidgets.com/docs/OS - Linux](https://www.phidgets.com/docs/OS_-_Linux#Getting_Started_with_Linux)
+   
+## Install Phidge Python Module
+Other languages are also supported: 
+[C](https://www.phidgets.com/docs/Language_-_C),
+[Java](https://www.phidgets.com/docs/Language_-_Java) 
 
+For Python:
+
+1. Download and unpack the 
+[Phidget Python Module](https://www.phidgets.com/downloads/phidget22/libraries/any/Phidget22Python.zip)
+
+On terminal install the module:
+```bash
+python setup.py install
+```
 ## Event Driven Mode
 
 ## Polling Mode
