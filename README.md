@@ -26,13 +26,13 @@ apt-get install libusb-1.0-0-dev
 
 3. Libraries are by deauflt installed in /usr/local/lib. If this is not the library path for your system, you can:
    Specify a different folder for installation:
-   ```bash
-   ./configure --prefix=/usr && make && sudo make install
-   ```
+```bash
+./configure --prefix=/usr && make && sudo make install
+```
    or add /usr/local/lib to the system-wide library path
-   ```bash
-   echo /usr/local/lib >> /etc/ld.so.conf && sudo ldconfig
-   ```
+```bash
+echo /usr/local/lib >> /etc/ld.so.conf && sudo ldconfig
+```
 ## Install Phidge Python Package
 
 ## Event Driven Mode
