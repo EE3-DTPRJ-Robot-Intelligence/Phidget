@@ -62,10 +62,11 @@ For Python:
 1. Download and unpack the 
 [Phidget Python Module](https://www.phidgets.com/downloads/phidget22/libraries/any/Phidget22Python.zip)
 
-On terminal install the module:
-```bash
-python setup.py install
-```
+   On terminal install the module:
+   ```bash
+   python setup.py install
+   ```
+
 ## Event Driven Mode
 
 ## Polling Mode
