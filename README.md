@@ -26,15 +26,25 @@ Python script for polling mode pressure sensing with 4 half bridge loadcells
 
 3. Libraries are by deauflt installed in /usr/local/lib. If this is not the library path for your system, you can
 
-   specify a different folder for installation:
+   a. specify a different folder for installation:
    ```bash
    ./configure --prefix=/usr && make && sudo make install
    ```
   
-   or add /usr/local/lib to the system-wide library path:
+   b. or add /usr/local/lib to the system-wide library path:
   
    ```bash
    echo /usr/local/lib >> /etc/ld.so.conf && sudo ldconfig
+   ```
+4. TO verify that the libraries are properly installed, download the 
+[HelloWorld C example](https://www.phidgets.com/downloads/phidget22/examples/c/Manager/Phidget22_HelloWorld_C_Ex.zip)
+
+   Compile and run the example:
+   ```bash
+   gcc HelloWorld.c -o HelloWorld -lphidget22
+   ```
+   ```bash
+   ./HelloWorld
    ```
 ## Install Phidge Python Package
 
