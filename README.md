@@ -12,6 +12,7 @@ Python script for polling mode pressure sensing with 4 half bridge loadcells
 * Python2.7 or 3.6,
 * Phidget Python Module
 
+
 ## Wiring Guide
 Depends on whtat type of loatdcells you are using, additional wiring might be required.Please check your spec sheet:
 
@@ -23,6 +24,8 @@ If you are not sure what resistance to pick, measure between the white and the r
 Input+ and Input- are power line, which should be connected to the 5V and Ground on the phidget.
 
 OUtput A and output b are excitation signal and should be connected to "+" and "-" pins. 
+
+
 ## Install phidget22 library - Linux
 1. Fisrt make sure to have libusb-1.0 development libraries installed
    ```bash
@@ -61,6 +64,7 @@ package
    
    for other more detailed information or other OS please go to [https://www.phidgets.com/docs/OS - Linux](https://www.phidgets.com/docs/OS_-_Linux#Getting_Started_with_Linux)
    
+   
 ## Install Phidge Python Module
 Other languages are also supported: 
 [C](https://www.phidgets.com/docs/Language_-_C),
@@ -78,9 +82,11 @@ python setup.py install
 
 Now you can connect your phidget and run the script.
 
+
 ## Event Driven Mode
 The original example code from Phidget website only is event driven. Only when there is a change in the input that meets the criteria will there be an output on the terminal. You can download the code
 [here](https://www.phidgets.com/downloads/phidget22/examples/python/VoltageRatioInput/Phidget22_VoltageRatio_Python_Ex.zip)
+
 
 ## Polling Mode
 In our case we want to run phidget in polling mode so that we can monitor all four channels simultatiously at each clock cycle.The file *AllChannels.py* is the modified version of the example code that serves the need. The serial number can be changed in the script to match your devices.
