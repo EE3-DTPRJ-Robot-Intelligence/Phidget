@@ -14,7 +14,7 @@ Python script for polling mode pressure sensing with 4 half bridge loadcells
 
 
 ## Wiring Guide
-Depends on whtat type of loatdcells you are using, additional wiring might be required.Please check your spec sheet:
+Depends on what type of loatdcells you are using, additional wiring might be required.Please check your spec sheet:
 
 For half-bridge loadcells, you need to complete the circuit with two resistors at the same resistance as the strain gauge:
 ![alt-text](https://www.xsimulator.net/community/attachments/30j0d2t-jpg.24306/)
