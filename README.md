@@ -74,4 +74,16 @@ The original example code from Phidget website only is event driven. Only when t
 [here](https://www.phidgets.com/downloads/phidget22/examples/python/VoltageRatioInput/Phidget22_VoltageRatio_Python_Ex.zip)
 
 ## Polling Mode
-In our case we want to run phidget in polling mode so that we can monitor all four channels simultatiously at each clock cycle.The file AllChannels.py is the modified version of the example code that serves the need. The serial number can be changed in the script to match your devices.
+In our case we want to run phidget in polling mode so that we can monitor all four channels simultatiously at each clock cycle.The file *AllChannels.py* is the modified version of the example code that serves the need. The serial number can be changed in the script to match your devices.
+```python
+" Set matching parameters to specify which channel to open"
+ch0.setDeviceSerialNumber(494011)
+ch0.setChannel(0)
+ch1.setDeviceSerialNumber(494011)
+ch1.setChannel(1)
+ch2.setDeviceSerialNumber(494011)
+ch2.setChannel(2)
+ch3.setDeviceSerialNumber(494011)
+ch3.setChannel(3)
+```
+
