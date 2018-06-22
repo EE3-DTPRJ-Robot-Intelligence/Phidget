@@ -19,7 +19,9 @@ For half-bridge loadcells, you need to complete the circuit with two resistors a
 ![alt-text](https://www.xsimulator.net/community/attachments/30j0d2t-jpg.24306/)
 
 If you are not sure what resistance to pick, measure between the white and the red line, and between the balck and the red line. Pick the same resistance for the resistors, and complete the circuit as shown above. In our case is 1k ohms.
+
 Input+ and Input- are power line, which should be connected to the 5V and Ground on the phidget.
+
 OUtput A and output b are excitation signal and should be connected to "+" and "-" pins. 
 ## Install phidget22 library - Linux
 1. Fisrt make sure to have libusb-1.0 development libraries installed
