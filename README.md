@@ -103,4 +103,5 @@ ch2.setChannel(2)
 ch3.setDeviceSerialNumber(494011)
 ch3.setChannel(3)
 ```
+The output should look like this:
 
