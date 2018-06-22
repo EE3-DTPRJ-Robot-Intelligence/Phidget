@@ -70,5 +70,8 @@ python setup.py install
 Now you can connect your phidget and run the script.
 
 ## Event Driven Mode
-The original example code from Phidget website only is event driven. Only when there is a change in the input that meets 
+The original example code from Phidget website only is event driven. Only when there is a change in the input that meets the criteria will there be an output on the terminal. You can download the code
+[here](https://www.phidgets.com/downloads/phidget22/examples/python/VoltageRatioInput/Phidget22_VoltageRatio_Python_Ex.zip)
+
 ## Polling Mode
+In our case we want to run phidget in polling mode so that we can monitor all four channels simultatiously at each clock cycle.The file AllChannels.py is the modified version of the example code that serves the need. The serial number can be changed in the script to match your devices.
