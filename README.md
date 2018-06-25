@@ -86,7 +86,7 @@ Now you can connect your phidget and run the script.
 
 
 ## Event Driven Mode
-The original example code from Phidget website only is event driven. Only when there is a change in the input that meets the criteria will there be an output on the terminal. You can download the code
+The original example code from Phidget website is event driven. Only when there is a change in the input that meets the criteria will there be an output on the terminal. You can download the code
 [here](https://www.phidgets.com/downloads/phidget22/examples/python/VoltageRatioInput/Phidget22_VoltageRatio_Python_Ex.zip)
 
 
@@ -103,5 +103,4 @@ ch2.setChannel(2)
 ch3.setDeviceSerialNumber(494011)
 ch3.setChannel(3)
 ```
-The output should look like this:
 
